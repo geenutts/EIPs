@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
 
       - name: Install Ruby
-        uses: ruby/setup-ruby@08245253a76fa4d1e459b7809579c62bd9eb718a
+        uses: ruby/setup-ruby@d2b39ad0b52eca07d23f3aa14fdf2a3fcc1f411c
         with:
           ruby-version: 2.6.0
           bundler-cache: true
